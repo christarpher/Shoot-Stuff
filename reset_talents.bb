@@ -1,0 +1,120 @@
+Include "variables.bb"
+
+Function reset_talents()
+; RESET EVERYTHING RELATED TO TALENTS ARGH
+bullet_counter = 0
+laser_mod# = 0
+standard_shot_damage_increaser# = 0
+random_asteroid = 0
+destroyable_on_screen = 0
+bullet_counter_summon = 0
+flush_keys = True 
+inertia_down# = 0
+inertia_up# = 0
+inertia_left# = 0
+inertia_right# = 0
+start_inertia_down# = 0
+start_inertia_up# = 0
+start_inertia_left# = 0
+start_inertia_right# = 0
+ship_scale# = 1.0
+wideshot_speed_increase# = 1
+wideshot_duration_time = 0
+actual_wideshot_speed_increase# = 1
+wideshot_speed_increase_counter = 0
+laser_drain# = 1
+laser_crit_talent# = 0
+shield_mod# = 1
+laser_and_phaser_talent# = 0
+energy_ball_damage_increase# = 1
+no_armor_damage_reducer# = 0
+damage_reduction# = 0
+shield_armor_increaser# = 0
+hull_integrity_increase# = 0
+wideshot_force_chance# = 0
+extra_protection_ships# = 0
+protection_percentage# = 100
+additional_supplies_shield_increaser# = 0
+megashot_damage_increase# = 1
+megashot_percentage = 0
+phase_inverter_time_added# = 0
+chance_to_crit# = 0
+wideshot_forced = False 
+crit_after_megashot_addition# = 0
+time_after_megashot# = 0
+phaser_increaser# = 0
+phase_time_talent# = 0
+phase_talent = False 
+check_phase_talent_shields = False 
+phase_time_talent_unchanged# = 0
+check_megashot_talent_phasers = False 
+phaser_talent_megashot_addition = 0
+create_protection_no_armor = False 
+create_protection_no_armor_counter = 0
+shield_addition# = 0
+shield_bar_length# = 0
+capacitor_crit_add# = 0
+damage_reduction_armor_upgrade# = 0.00
+coin_counter = 0
+coin_addition = 0
+down_key = False
+up_key = False
+Left_key = False
+right_key = False 
+protection_clicked = False 
+wideshot_shooting = False
+
+
+a_protection = False
+a_laser = False
+a_shield = False
+a_wideshot = True
+a_megashot = False 
+a_phase_inverter = False 
+
+s_protection = False
+s_laser = False
+s_shield = False
+s_wideshot = False
+s_megashot = False 
+s_phase_inverter = False 
+
+d_protection = False
+d_laser = False
+d_shield = False
+d_wideshot = False
+d_megashot = False 
+d_phase_inverter = False  
+
+laser_spent = 0
+shield_spent = 0
+protection_spent = 0
+nuke_spent = 0
+megashot_spent = 0
+phase_inverter_spent = 0
+
+talent_1_spent = 0
+talent_2_spent = 0
+talent_3_spent = 0
+talent_4_spent = 0
+talent_5_spent = 0
+talent_6_spent = 0
+talent_7_spent = 0
+talent_8_spent = 0
+talent_9_spent = 0
+talent_10_spent = 0
+talent_11_spent = 0
+talent_12_spent = 0
+talent_13_spent = 0
+talent_14_spent = 0
+talent_15_spent = 0
+talent_16_spent = 0
+talent_17_spent = 0
+talent_18_spent = 0
+talent_19_spent = 0
+talent_20_spent = 0
+talent_21_spent = 0
+talent_22_spent = 0
+talent_23_spent = 0
+talent_24_spent = 0
+End Function
