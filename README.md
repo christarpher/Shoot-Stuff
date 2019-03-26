@@ -1,0 +1,2 @@
+# Shoot-Stuff
+This game was written in basic many years ago. It is a top down shoot em up game with multiple levels, bosses, items, etc. During the course of the game you will find currency which can be used to purchase items to increase the capabilities of your ship, you will unlock more abilities as well as having a full talent tree capable of modifying many different parts of your ship. The game also features an achievement system, as well as a hardcore mode for added difficulty. 
